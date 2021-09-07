@@ -31,5 +31,5 @@ print(nato_dict)
 
 print("Nato alphabet generator")
 user_input = input("Type a word: ").upper()
-nato_list = [nato_dict[letter] for letter in user_input if letter in user_input]
+nato_list = [nato_dict[letter] for letter in user_input ]
 print(nato_list)
